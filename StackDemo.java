@@ -1,3 +1,15 @@
+Write a Java program to Implement stack using arrays.
+
+Aim:To Write a Java program to Implement stack using arrays.
+
+Description:
+
+The stack is a data structure that is very frequently used in
+computing as a kind of temporary storage.  It is a list of
+elements to which additions and deletions can only be made at one end-the top. 
+
+Program:    
+
 import java.util.*;
 class stackN
 {
@@ -87,3 +99,30 @@ class StackDemo
     }
 
 }
+
+Input and Output:
+
+enter max
+5
+enter your choice
+1
+1
+enter your choice
+1
+2
+enter your choice
+1
+3
+enter your choice
+4
+3
+2
+1
+enter your choice
+2
+the element which is deleted from the stack is 3
+enter your choice
+3
+2
+enter your choice
+10
