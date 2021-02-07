@@ -1,3 +1,15 @@
+Write a Java program to implement the Merge sort technique using arrays 
+
+Aim:To Write a Java program to implement the Merge sort technique using arrays 
+
+Description:
+Like QuickSort, Merge Sort is a Divide and Conquer algorithm. It divides input array in two
+halves, calls itself for the two halves and then merges the two sorted halves. The merge()
+function is used for merging two halves. The merge(arr, l, m, r) is key process that assumes
+that arr[l..m] and arr[m+1..r] are sorted and merges the two sorted sub-arrays into one
+
+Program:
+
 import java.util.*;
 class MergeSort
 {
@@ -58,3 +70,16 @@ class MergeSort
             a[i] = b[i];
     }
 }
+
+Input and Output:
+enter n value
+5
+enter the array elements
+54 12 87 63 21
+elements ater sorting are
+12
+21
+54
+63
+87
+
