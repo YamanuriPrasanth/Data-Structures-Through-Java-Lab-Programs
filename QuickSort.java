@@ -1,3 +1,13 @@
+Write a Java program to implement the following Quick sort technique using arrays
+
+Aim:To Write a Java program to implement the following Quick sort technique using arrays
+
+Description:
+
+Quicksort is a divide and conquer algorithm. Quicksort first divides a large array into two
+smaller sub-arrays: the low elements and the high elements. Quicksort can then recursively sort
+the sub-arrays.
+
 class QuickSort
 {
     public static void main(String[] args)
@@ -45,3 +55,16 @@ class QuickSort
         }
     }
 }
+
+Input and Output:
+
+Enter array size
+5
+Enter the array elements
+5 4 3 2 1
+Elements after sorting are
+1
+2
+3
+4
+5
