@@ -1,4 +1,4 @@
-Write a Java program to implement the following Quick sort technique using arrays
+Write a Java program to implement the Quick sort technique using arrays
 
 Aim:To Write a Java program to implement the following Quick sort technique using arrays
 
