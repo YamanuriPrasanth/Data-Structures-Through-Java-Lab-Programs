@@ -35,7 +35,7 @@ class QuickSort
             int p=first;
             while(i<j)
             {
-                while(a[i]<=a[p] && i<last)
+                while(a[i]<=a[p] && i<j)
                     i++;
                 while(a[j]>a[p])
                     j--;
