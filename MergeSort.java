@@ -24,7 +24,7 @@ class MergeSort
         for (int i = 0; i < n; i++)
             a[i] = s.nextInt();
         mergeSort(a, 0, n - 1);
-        System.out.println("elements ater sorting are");
+        System.out.println("elements after sorting are");
         for (int i = 0; i < n; i++)
             System.out.println(a[i]);
     }
@@ -76,7 +76,7 @@ enter n value
 5
 enter the array elements
 54 12 87 63 21
-elements ater sorting are
+elements after sorting are
 12
 21
 54
