@@ -8,6 +8,8 @@ searching element, then the item is searched in the sub-array to the left of the
 Otherwise, the item is searched in the sub-array to the right of the middle item. This process
 continues on the sub-array as well until the size of the sub-array reduces to zero.
 
+Program:
+
 import java.util.*;
 class BinarySearch
 {
