@@ -1,3 +1,16 @@
+Write a Java program to implement the Radix sort technique using arrays
+
+Aim:To Write a Java program to implement the Radix sort technique using arrays
+
+Description:
+The list of elements are first sorted according to the first digit of each element. Intuitively, one
+might want to sort numbers on their most significant digit. But Radix sort do counter-intuitively
+by sorting on the least significant digits first. On the first pass entire numbers sort on the least
+significant digit and combine in a array. Then on the second pass, the entire numbers are sorted
+again on the second least-significant digits and combine in a array and so on.
+
+Program:
+
 import java.util.*;
 class RadixSort
 {
@@ -42,4 +55,18 @@ class RadixSort
         }
     }
 }
+
+Input and output:
+
+Enter n value
+5
+Enter array Elements
+11 99 21 41 03
+after sorting
+3
+11
+21
+41
+99
+
 
