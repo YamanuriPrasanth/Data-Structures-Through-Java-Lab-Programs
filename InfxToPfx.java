@@ -1,3 +1,30 @@
+Write a Java program to Convert infix expression to postfix expression 
+
+Aim:To Write a Java program to Convert infix expression to postfix expression 
+
+Description:
+
+In normal algebra we use the infix notation like a+b*c. The corresponding postfix notation is abc*+. The algorithm for the conversion is as follows : 
+•	Scan the Infix string from left to right. 
+•	Initialize an empty stack. 
+•	If the scanned character is an operand, add it to the Postfix string. 
+•	If the scanned character is an operator and if the stack is empty Push the character to stack. 
+•	If the scanned character is an Operator and the stack is not empty, compare the precedence of the character with the element on top of the stack (topStack).
+–	 If topStack has lower precedence over the scanned character Push the scanned character to stack. 
+–	Else(higher or equal precedence) Pop the stack and add it to the postix string. Repeat this step as long as stack is not empty and topStack has less precedence
+over the character. 
+•	If a left parenthesis is encountered, push it onto Stack. 
+•	If a right parenthesis is encountered ,then: 
+•	Repeatedly pop from Stack and add to postfix string until  left parenthesis is encountered. 
+•	Remove the left Parenthesis. 
+•	Repeat this step till all the characters are scanned. 
+•	If stack is not empty Pop the stack and add it to postfix string 
+•	Repeat this step as long as stack is not empty. 
+•	Return the Postfix string. 
+
+
+Program:
+
 import java.util.*;
 class  Stack1
 {
@@ -82,3 +109,10 @@ class InfxToPfx
         return -1;
     }
 }
+
+Input and Output:
+
+enter the infix string!
+a-(b+c*d)/e
+abcd*+e/-
+
