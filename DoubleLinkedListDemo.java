@@ -1,3 +1,17 @@
+Write a Java program to implement Doubly Linked List. 
+    
+Aim:To Write a Java program to implement Doubly Linked List. 
+    
+Description:
+
+Doubly linked list  is a type of linked list in which each node apart from storing its data has two links.
+The first link points to the previous node in the list and the second link points to the next node in the list. 
+The cost of this is an extra link, which adds to the space requirements and also doubles the cost of insertions
+and deletions because there are more pointers to fix. On the other hand it simplifies deletion, because you no
+longer have to refer to a key by using pointers to the previous cell.
+
+Program:
+
 import java.util.Scanner;
 class MyNode
 {
@@ -152,3 +166,28 @@ class DoubleLinkedListDemo
         }
     }
 }
+
+Input and Output:
+
+enter the size of the list
+5
+enter data
+1
+enter data
+2
+enter data
+3
+enter data
+4
+enter data
+5
+enter your choice
+4
+enter your choice
+7
+2->3->4->5->null
+enter your choice
+8
+5->4->3->2->null
+enter your choice
+
