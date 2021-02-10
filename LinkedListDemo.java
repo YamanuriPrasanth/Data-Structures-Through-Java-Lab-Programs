@@ -2,6 +2,14 @@ Write a Java program to implement Singly Linked List.
 
 Aim: To Write a Java program to implement Singly Linked List.  
     
+Description:
+
+Similar to arrays, LinkedList is a linear data structure. However LinkedList elements are not stored in contiguous locations like arrays,
+they are linked with each other using pointer or a link. Each element of the LinkedList has the reference(address/pointer) to the
+next element of the LinkedList. Each element in the LinkedList is called the Node. Each Node of the LinkedList contains two items:
+1) Content of the element
+2) Pointer/Address/Reference to the Next Node in the LinkedList.
+    
 Program:
 
 import java.util.*;
