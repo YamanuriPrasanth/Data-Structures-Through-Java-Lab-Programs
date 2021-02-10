@@ -1,3 +1,9 @@
+Write a Java program to implement Singly Linked List.
+
+Aim: To Write a Java program to implement Singly Linked List.  
+    
+Program:
+
 import java.util.*;
 class MyNode
 {
@@ -133,3 +139,33 @@ class  LinkedListDemo
         }
     }
 }
+
+Input and output:
+
+enter the size of the list
+5
+enter the data
+1
+enter the data
+2
+enter the data
+3
+enter the data
+4
+enter the data
+5
+enter your choice
+1
+enter the element to be inserted
+1
+enter your choice
+7
+1->1->2->3->4->5->NULL
+enter your choice
+4
+enter your choice
+7
+1->2->3->4->5->NULL
+enter your choice
+10
+
