@@ -1,6 +1,6 @@
-Write a Java program to implement Doubly Linked List.
+Write a Java program to implement Circular Linked List.
 
-Aim: To Write a Java program to implement Doubly Linked List.
+Aim: To Write a Java program to implement Circular Linked List.
     
 Description:
 
