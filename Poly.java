@@ -1,6 +1,6 @@
 Implement Java code for polynomial representation, addition, subtraction & multiplication. 
     
-Aim: Implement Java code for polynomial representation, addition, subtraction & multiplication.
+Aim: To Implement Java code for polynomial representation, addition, subtraction & multiplication.
 
 Description : A node of the linked list will represent each term. A node will have 3 fields, which
 represent the coefficient and exponent of a term and a pointer to the next term 
