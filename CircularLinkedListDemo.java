@@ -1,3 +1,15 @@
+Write a Java program to implement Doubly Linked List.
+
+Aim: To Write a Java program to implement Doubly Linked List.
+    
+Description:
+
+Circular linked list is a linked list in which the last node of the list
+contains a pointer to the first node of the list. We can have circular singly
+linked list as well as circular doubly linked list.
+
+Program:
+
 import java.util.Scanner;
 class MyNode
 {
@@ -50,3 +62,14 @@ class CircularLinkedListDemo
         c.display();
     }
 }
+
+Input and Output:
+
+5
+1
+2
+3
+4
+5
+1->2->3->4->5
+
