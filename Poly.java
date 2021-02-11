@@ -1,3 +1,12 @@
+Implement Java code for polynomial representation, addition, subtraction & multiplication. 
+    
+Aim: Implement Java code for polynomial representation, addition, subtraction & multiplication.
+
+Description : A node of the linked list will represent each term. A node will have 3 fields, which
+represent the coefficient and exponent of a term and a pointer to the next term 
+
+Program:
+
 import java.util.*;
 class  MyNode
 {
@@ -232,3 +241,24 @@ class Poly
         p5.display();
     }
 }
+
+Input and Output:
+
+enter no.of terms in the polynomial equation1
+2
+enter coefficient and exponent
+10 2
+enter coefficient and exponent
+5 1
+enter no.of terms in the polynomial equation2
+2
+enter coefficient and exponent
+5 2
+enter coefficient and exponent
+2 1
+10x^2+5x^1
+5x^2+2x^1
+15x^2+7x^1
+5x^2+3x^1
+50x^4+45x^3+10x^2
+
